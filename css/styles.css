@@ -16,6 +16,10 @@ height:  100vh;
 margin:  0;
 }
 
+a {
+    text-decoration: none !important;
+    color:inherit !important;
+}
 .container {
     text-align: center;
 }
@@ -30,6 +34,7 @@ margin:  0;
 }
 
 .role {
+    transform: translateY(-35px);
     font-size: 35px;
     font-family: coolvetica !important;
 }
@@ -52,9 +57,10 @@ body.light-mode {
     color: #282b3e !important;
 }
 
-body.light-mode .moon-icon {
+body.light-mode .moon-icon{
     color: #282b3e !important;
 }
+
 
 
 .theme-toggle {
@@ -79,4 +85,26 @@ body.light-mode .moon-icon {
 
 .theme-toggle i {
     font-size:  24px;
+}
+
+.lets-go {
+    position: absolute;
+    bottom: 250px;
+}
+
+.proceed {
+    font-size: 25px;
+    font-family: coolvetica !important;
+    background-color: rgba(255,  255,  255,  0.1);
+    padding: 8px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.proceed.light-mode {
+    color: #282b3e !important;
+    background-color: #e1dac8 !important;
+    box-shadow: 0.2rem 0.3rem rgb(169, 158, 129);
+    
 }
