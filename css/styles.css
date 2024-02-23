@@ -48,17 +48,14 @@ margin:  0;
 
 
 body.light-mode {
-    background-color: #fff !important;
-    color: #222 !important;
+    background-color: #fbf0d9 !important;
+    color: #282b3e !important;
 }
 
-body.dark-theme .moon-icon {
-    color: #fff; 
+body.light-mode .moon-icon {
+    color: #282b3e !important;
 }
 
-body.light-theme .moon-icon {
-    color: #000;
-}
 
 .theme-toggle {
     position: fixed;
@@ -74,6 +71,10 @@ body.light-theme .moon-icon {
 
 .theme-toggle:hover {
     background-color: rgba(255,  255,  255,  0.1); 
+}
+
+.theme-toggle.light-mode:hover {
+    background-color: rgba(24, 25, 57, 0.212); 
 }
 
 .theme-toggle i {
